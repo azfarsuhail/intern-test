@@ -158,6 +158,66 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Schedule a Demo Section */}
+      <section className="bg-white px-6 py-16">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            <span className="font-extrabold">Schedule</span> a Demo!
+          </h2>
+          <p className="text-sm mb-10 max-w-2xl">
+            Don’t hesitate to offer your customers the latest way to communicate with you. We will be in touch with you very soon!
+          </p>
+          <form className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+            <input type="text" placeholder="Name" className="border-b p-2 outline-none" />
+            <input type="text" placeholder="Dealership" className="border-b p-2 outline-none" />
+            <input type="email" placeholder="Email" className="border-b p-2 outline-none" />
+            <input type="tel" placeholder="Phone number" className="border-b p-2 outline-none" />
+            <input type="text" placeholder="City" className="border-b p-2 outline-none" />
+            <input type="text" placeholder="Select your State" className="border-b p-2 outline-none" />
+          </form>
+          <button className="bg-black text-white px-6 py-2 hover:opacity-90">Send now</button>
+        </div>
+      </section>
+
+      {/* Footer Section */}
+      <footer className="bg-black text-white px-6 py-10">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+          <div>
+            <p className="text-sm mb-4">Creating a Personalized Experience</p>
+            <div className="flex gap-4">
+              <Image src="../../public/google-play-badge.png" alt="Google Play" className="h-10" />
+              <Image src="../../public/app-store-badge.png" alt="App Store" className="h-10" />
+            </div>
+          </div>
+
+          <div>
+            <h4 className="font-bold mb-2">QUICK LINK</h4>
+            <ul className="text-sm space-y-1">
+              <li>• Home</li>
+              <li>• About Product</li>
+              <li>• Features</li>
+              <li>• Contact Us</li>
+            </ul>
+          </div>
+
+          <div className="flex justify-center md:justify-end">
+            <Image src="../../public/mobile-preview.png" alt="Mobile App Preview" className="h-60 object-contain" />
+          </div>
+        </div>
+
+        <div className="border-t border-gray-700 mt-8 pt-4 flex justify-between items-center text-xs">
+          <div className="font-bold">LOGO</div>
+          <p>© 2022. All rights reserved</p>
+          <div className="flex gap-4">
+            <a href="#"><i className="fab fa-twitter"></i></a>
+            <a href="#"><i className="fab fa-facebook"></i></a>
+            <a href="#"><i className="fab fa-linkedin"></i></a>
+            <a href="#"><i className="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+
     </main>
   );
 }
