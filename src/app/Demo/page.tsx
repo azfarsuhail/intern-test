@@ -2,7 +2,7 @@ export default function Demo(){
     return(
         <section className="bg-white px-6 py-16">
                 <div className="max-w-7xl mx-auto">
-                  <h2 className="text-2xl md:text-3xl font-bold mb-4">
+                  <h2 className="text-2xl md:text-3xl font-semibold mb-4">
                     <span className="font-extrabold">Schedule</span> a Demo!
                   </h2>
                   <p className="text-sm mb-10 max-w-2xl">
