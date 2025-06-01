@@ -10,6 +10,7 @@ import how2 from "../../public/how2.png";
 import how3 from "../../public/how3.png";
 import how4 from "../../public/how4.png";
 import how5 from "../../public/how5.png";
+import mobile_preview from "../../public/mobile-preview.png";
 
 export default function HomePage() {
   return (
@@ -186,8 +187,20 @@ export default function HomePage() {
           <div>
             <p className="text-sm mb-4">Creating a Personalized Experience</p>
             <div className="flex gap-4">
-              <Image src="../../public/google-play-badge.png" alt="Google Play" className="h-10" />
-              <Image src="../../public/app-store-badge.png" alt="App Store" className="h-10" />
+              <Image
+                src="/google-play-badge.png"
+                alt="Google Play"
+                width={150}
+                height={50}
+                className="h-10 w-auto"
+              />
+              <Image
+                src="/app-store-badge.png"
+                alt="App Store"
+                width={150}
+                height={50}
+                className="h-10 w-auto"
+              />
             </div>
           </div>
 
@@ -202,7 +215,13 @@ export default function HomePage() {
           </div>
 
           <div className="flex justify-center md:justify-end">
-            <Image src="../../public/mobile-preview.png" alt="Mobile App Preview" className="h-60 object-contain" />
+            <Image
+              src={mobile_preview}
+              alt="Mobile App Preview"
+              width={240}
+              height={360}
+              className="object-contain"
+            />
           </div>
         </div>
 
@@ -217,6 +236,7 @@ export default function HomePage() {
           </div>
         </div>
       </footer>
+
 
     </main>
   );
