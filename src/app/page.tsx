@@ -1,15 +1,15 @@
 import Image from "next/image";
-import carImage from "@/public/car.png";
-import phoneImage from "@/public/phone.png";
-import services from "@/public/services.png";
-import protection from "@/public/protection.png";
-import vehicles from "@/public/vehicles.png";
-import rewards from "@/public/rewards.png";
-import how1 from "@/public/how1.png";
-import how2 from "@/public/how2.png";
-import how3 from "@/public/how3.png";
-import how4 from "@/public/how4.png";
-import how5 from "@/public/how5.png";
+import carImage from "../../public/car.png";
+import phoneImage from "../../public/phone.png";
+import services from "../../public/services.png";
+import protection from "../../public/protection.png";
+import vehicles from "../../public/vehicles.png";
+import rewards from "../../public/rewards.png";
+import how1 from "../../public/how1.png";
+import how2 from "../../public/how2.png";
+import how3 from "../../public/how3.png";
+import how4 from "../../public/how4.png";
+import how5 from "../../public/how5.png";
 
 export default function HomePage() {
   return (
